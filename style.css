@@ -1,0 +1,143 @@
+.NavBar {
+    display: grid;
+    grid-auto-flow: column;
+    place-items: center;
+    padding: 3px 20px;
+    background-color: #cfccd6;
+}
+
+.NavBar a {
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    font-family: 'Inter', sans-serif;
+}
+
+.NavBar img {
+    width: 30%;
+
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 35px;
+}
+
+.current a {
+    text-decoration: none;
+    color: #3792c8;
+}
+
+.promotion {
+    font-family: 'DM Sans';
+    font-size: 21px;
+    background-color: rgb(235, 235, 235);
+    text-align: center;
+    display: grid;
+    grid-template-columns: 35% 65%;
+}
+
+.promotion img {
+    width: 700px;
+    height: 350px;
+
+}
+
+.promotion a {
+    text-decoration: none;
+    color: #3792c8;
+}
+
+.logo {
+    width: 60%;
+}
+
+article+article {
+    margin-top: 2rem;
+}
+
+article {
+    font-family: 'DM Sans';
+    font-size: 20px;
+    text-align: center;
+}
+
+p {
+    max-width: 50ch;
+    margin: auto;
+}
+
+article p+p {
+    margin-top: 1rem;
+}
+
+div+article {
+    margin-top: 2rem;
+}
+
+nav {
+    background-color: #3792c8;
+    font-family: 'Inter';
+    display: grid;
+    grid-auto-flow: column;
+    place-items: center;
+    font-size: 12px;
+    padding: 7px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+.Bottom {
+    text-align: center;
+    background-color: #cfccd6;
+}
+.Bottom img {
+    width: 5%;
+}
+
+.image-frame {
+    display: grid;
+    padding: 10px;
+    text-align: center;
+}
+
+.image-frame h2 {
+    grid-row: 1;
+    grid-column: 1;
+    z-index: 666;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+.image-frame img {
+    grid-row: 1;
+    grid-column: 1;
+    width: 100%;
+    height: 300px;
+    
+}
+.FAQ {
+    text-align: left;
+    margin-left: 3rem;
+}
+article p+p {
+    max-width: 65ch;
+}
+
+h3 {
+    font-family: 'Inter';
+    text-align: left;
+    margin-left: 5rem;
+}
+.answer {
+    text-align: left;
+    margin-left: 7.5rem;
+    font-family: 'DM Sans';
+}
