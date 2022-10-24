@@ -176,21 +176,34 @@ h3 {
     font-family: 'DM Sans';
 }
 
-.Home_devices {
+.devices {
     display: grid;
     grid-auto-flow: column;
-    gap: 10px;
+    gap: 2px;
 
 }
 
-.Home_devices img {
-    width: 60%;
-    height: 60%;
-    margin-right: 2px;
+
+.devices img {
+    width: 85%;
+    height: 75%;
+}
+
+.devices + h1 {
+    margin-top: 4rem;
 }
 
 .clock img {
-    width: 350px;
+    width: 500px;
+    margin-right: 0rem;
+}
+
+.system img {
+    width: 500px;
+}
+
+.phone img {
+    width: 500px;
 }
 
 .disclaimer {
@@ -204,13 +217,13 @@ article+.disclaimer {
 .weapons {
     display: grid;
     grid-auto-flow: column;
-    gap: 10px;
+    gap: 5px;
 }
 
 .weapons img {
     width: 85%;
     height: 55%;
-    margin-right: 10px;
+    
 }
 
 .transport {
