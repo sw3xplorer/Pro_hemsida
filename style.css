@@ -83,7 +83,9 @@ p {
     margin: auto;
 }
 
-
+main + footer {
+    margin-top: 2rem;
+}
 
 article+nav {
     margin-top: 2rem;
@@ -156,6 +158,8 @@ article p+p {
     max-width: 65ch;
 }
 
+
+
 h3 {
     font-family: 'Inter';
     text-align: left;
@@ -172,12 +176,13 @@ h3 {
     display: grid;
     grid-auto-flow: column;
     gap: 10px;
+
 }
 
 .Home_devices img {
-    width: 70%;
-    height: 70%;
-    margin-right: 10px;
+    width: 60%;
+    height: 60%;
+    margin-right: 25px;
 }
 
 .clock img {
@@ -189,7 +194,7 @@ h3 {
 }
 
 article+.disclaimer {
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 
 .weapons {
