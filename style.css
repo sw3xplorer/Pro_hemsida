@@ -85,7 +85,7 @@ p {
     margin: auto;
 }
 
-main + footer {
+main+footer {
     margin-top: 2rem;
 }
 
@@ -101,7 +101,7 @@ div+article {
     margin-top: 2rem;
 }
 
-header + main {
+header+main {
     margin-top: 4rem;
 }
 
@@ -218,12 +218,13 @@ article+.disclaimer {
 .weapons img {
     width: 280px;
     height: 75%;
-    
+
 }
 
-.weapons + .disclaimer {
+.weapons+.disclaimer {
     margin-top: 15rem;
 }
+
 .transport {
     display: grid;
     grid-auto-flow: column;
@@ -238,4 +239,14 @@ article+.disclaimer {
 
 .signature {
     font-weight: bold;
+}
+
+.intro p {
+    text-align: left;
+    margin: 3rem;
+}
+
+.intro h1 {
+    text-align: left;
+    margin: 3rem;
 }
